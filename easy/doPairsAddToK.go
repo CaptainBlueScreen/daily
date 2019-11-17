@@ -1,16 +1,16 @@
-package main
-
 // Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
 
 // For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 // Bonus: Can you do this in one pass?
 
+package main
+
 import "fmt"
 
 func main() {
-	fmt.Println(doPairsAddToK([]int{1, 2, 3, 4, 5, 6}, 11))
-	fmt.Println(doPairsAddToK2([]int{1, 2, 3, 4, 5, 6}, 11))
+	fmt.Println(doPairsAddToK([]int{10, 15, 3, 7}, 17))
+	fmt.Println(doPairsAddToK2([]int{10, 15, 3, 7}, 17))
 }
 
 func doPairsAddToK(numbers []int, k int) bool {
